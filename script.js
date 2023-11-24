@@ -42,7 +42,7 @@ setInterval(function () {
   }
 
   next.classList.add("show");
-}, 1250);
+}, 1070);
 
 //carrosel2
 setInterval(function () {
