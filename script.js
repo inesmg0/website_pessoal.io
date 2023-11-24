@@ -42,7 +42,7 @@ setInterval(function () {
   }
 
   next.classList.add("show");
-}, 1070);
+}, 1200);
 
 //carrosel2
 setInterval(function () {
@@ -69,7 +69,7 @@ setInterval(function () {
   }
 
   next3.classList.add("show");
-}, 1000);
+}, 1170);
 
 
 //carrosel3
@@ -83,7 +83,7 @@ setInterval(function () {
   }
 
   next4.classList.add("show");
-}, 1200);
+}, 1210);
 
 
 
