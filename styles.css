@@ -1,0 +1,152 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #FFF7E9;
+  overflow: hidden;
+}
+
+.items {
+  display: grid;
+  background-color: gray;
+  margin: 2%;
+  height: 100vh;
+  width: 95vw;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr) 0.3fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  }
+
+ .items  div{
+  padding: 1%;;
+  background-color: #FFF7E9;
+ }
+  
+  .div1 { 
+    grid-area: 1 / 1 / 2 / 3; 
+    display: flex;
+    flex-direction: row;
+  }
+  .div2 { 
+    display: flex;
+    flex-direction: row;
+    grid-area: 2 / 1 / 4 / 3;
+   }
+  .div3 {
+    display: flex;
+    flex-direction: row;
+    grid-area: 1 / 3 / 2 / 4;
+   }
+  .div4 { grid-area: 1 / 4 / 2 / 5; }
+  .div5 { grid-area: 2 / 3 / 3 / 4; }
+  .div6 { grid-area: 2 / 4 / 3 / 5; }
+  .div7 { grid-area: 3 / 3 / 4 / 4; }
+  .div8 { grid-area: 3 / 4 / 4 / 5; }
+
+  .div9 { 
+    padding: 0 !important; 
+    grid-area: 4 / 1 / 5 / 5; 
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+  .cont-in{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  #nome {
+    width: 80%;
+  }
+
+  .cont-img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 90%;
+  }
+
+  #imagem {
+    width: 100%;
+   }
+
+  #texto {
+    z-index: 1;
+    width: 100%;
+  }
+
+
+  .cont-work {
+    display: flex;
+    align-items: first baseline;
+    margin-top: 10%;
+    min-width: 30%;
+    width: 40%;
+  }
+
+
+.work_hover{
+  visibility: hidden;
+}
+
+
+.foto {
+  width: 100%;
+  height: 29vh;
+  margin: auto;
+  object-fit: cover;
+  display: none;
+  transition: all 0.7s ease-out;
+  opacity: 0;
+}
+
+.foto2 {
+  width: 100%;
+  height: 25vh;
+  margin: auto;
+  object-fit: cover;
+  display: none;
+  transition: all 0.7s ease-out;
+  opacity: 0;
+}
+
+
+
+.show{
+  opacity: 1;
+  display: block;
+}
+
+
+.contacts-cont{
+  width: 20%;
+  padding: 0 !important;
+  height: 100%;
+}
+
+.contacts{
+  visibility: hidden;
+}
+
+.contacts2{
+  width: 55%;
+  position: relative;
+  top: -50%;
+}
+
+
+.redes-cont{
+  width: 10%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10%
+}
+
+.links-redes{
+  text-decoration: none;
+  color: black;
+}
+
